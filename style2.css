@@ -1,0 +1,84 @@
+
+h1 {font-family: 'Gloock', serif;
+  color:deepskyblue;
+  background-color: lightyellow;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+
+}
+
+
+h2 {font-family: 'Gloock', serif;
+  color:darkseagreen;
+  background-color: lightyellow;
+  border-width: 100px;
+  border-color: black;
+  text-align: center;
+  font-weight: 750;
+  font-size: 20px;
+
+}
+p{
+font-family: 'Prata', serif;
+  color:darkseagreen;
+  background-color: lightyellow;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+body{
+font-family: 'Prata', serif;
+  color:deepskyblue;
+  background-color: lightyellow;
+  border-color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
+ul{
+  flex-direction: row;
+  font-family: 'Gloock', serif;
+  color: black;
+  background-color: lightskyblue;
+  text-align: center;
+}
+
+.location-holder, .media-holder {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
+
+.image-holder, .text-holder {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 555px) {
+  body {
+    background-color: palegreen;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: lightyellow;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightgrey;
+  }
+}
