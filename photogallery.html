@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
 <head>
+  <meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +13,14 @@
 
 <link rel="stylesheet" href="css/style2.css">
 
+<script type="text/javascript" src="gallery.js" defer></script>
+
 <title>
 	Photo Gallery
 
 </title>
 
-
+<script type="text/javascript" src="js/gallery.js" defer></script>
 <head>
 
   <body>
@@ -35,28 +38,66 @@
       </ul>
     </nav>
 
+
+ <main id="content">
 <h1>
 
-	A Night At Cooper's Landing
+  A Night At Cooper's Landing
 
 </h1>
-
-<h2>1. Hotel California, Eagles, 1976</h2>
-<img src="img/group.jpg"></a>
-
-<h2>2. Rumours, Fleetwood Mac, 1977 </h2>
-<img src="img/playingcards.jpg"></a>
-
-<h2>3. Let It Be, Beatles, 1970 </h2>
-<img src="img/sunset.jpg"></a>
-
-
-<h2>4. Wish You Were Here, Pink Floyd, 1975 </h2>
-<img src="img/candid.jpg"></a>
+    
+<main>
+      <figure class="gallery-image ">
+      <img src="img/group.jpg" alt="A group of six friends sit on logs along the river while the sun starts to set.">
+      <figcaption>
+        The friend group meets up at Cooper's Landing before going to skip rocks on the river. | Photo / Megan Mueller<time datetime="2022">2022</time>.
+      </figcaption>
+    </figure>
 
 
-<h2>5. The Stranger, Billy Joel, 1977 </h2>
-<img src="img/closeup.jpg"></a>
+    <figure class="gallery-image hideThis">
+      <img src="img/closeup.jpg" alt="A girl in a red cap looks away smiling as the reflection of the river and sunset is shown on her sunglasses.">
+      <figcaption>
+        Rachel watches the sunset go down on the river.
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-image hideThis">
+      <img src="img/playingcards.jpg" alt="A girl with red nails is holding a set of cards while playing a game of Slap Jack.">
+      <figcaption>
+        Delanie holds her cards close to her while playing a game of Slap Jack. 
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-image hideThis">
+      <img src="img/candid.jpg" alt="A male on the left and female on the right sit next to each other with smiles on their faces while making funny remarks to each other.">
+      <figcaption>
+        Camden Brazile and Rachel Barnes laugh with the group while making inside jokes.
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-image hideThis">
+      <img src="img/sunset.jpg" alt="As the sun is just on the horizon, it creates a sihlouette of other visitors in front of the river.">
+      <figcaption>
+        A couple looks out and watches the sunset on a beautiful April evening. 
+         <time datetime="2023">2023</time>.
+      </figcaption>
+    </figure>
+
+<div class="button_holder">
+      <button id="button_previous">Previous</button>
+      <p id="stepper"></p>
+      <button id="button_next">Next</button>
+    </div>
+    
+
+    <!-- <div class="button_holder">
+      <button id="button_previous">Previous</button>
+      <p id="stepper"></p>
+      <button id="button_next">Next</button>
+    </div>   -->
+
+</main>
 
 </body>
 
