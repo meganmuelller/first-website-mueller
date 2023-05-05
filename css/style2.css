@@ -24,17 +24,39 @@ h2 {font-family: 'Gloock', serif;
   font-size: 20px;
 }
 
+h3 {font-family: 'Gloock', serif;
+color: darkslateblue;
+background-color: beige;
+border-width: 100px;
+  border-color: black;
+  text-align: center;
+}
+
 p{
-font-family: 'Prata', serif;
+font-family: 'Gloock', serif;
   color:darkslateblue;
   text-align: center;
   font-weight: 700;
   font-size: 15px;
 }
 
+ul{
+  font-family: 'Prata', serif;
+  color: white;
+  text-align: center;
+  text-color: white;
+}
+
+ul li{
+  font-family: 'Prata', serif;
+  text-align: center;
+  text-color: white;
+}
+
 body{
  background-image: url('landscape.jpg');
  background-size: 100% 100%;
+ padding-top: 50px;
   color:black;
   background-color: lightyellow;
   border-color: black;
@@ -50,33 +72,39 @@ body{
   color: white;
 }
 
-.navbar ul {
-  list-style: none;
-  background: darkslateblue;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar li {
+.nav1 {
+/*  background-color: white;*/
+  float: center; 
+  font-family: 'Gloock', serif;
+  font-weight: 1000px;
+  width: 100vw;
+  width: 100%;
+  margin: .5rem .3rem .1rem .1rem;
+  padding: .10rem .10rem .10rem .10rem;
+  align-items: center;
+  text-align: center;
+  position: relative;
   display: inline-block;
 }
 
-.navbar a{
-  text-decoration: none;
-  color: #fff;
-  width: 100px;
-  display: block;
-  padding: 25px 20px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold:;
-  text-align: center;
-  flex-direction: row;
-  align-content: space-between;
-  align-items: center;
-  justify-content: center;
-
+  .nav2 {
+  flex-grow: 50;
+  float: center;
+  margin: 0.70rem;
+  padding: 0.10rem;
+  background-color: white;
+  border: solid lightgray 1px;
+  border-radius: 7px;
 }
+
+.nav2 a {
+  text-decoration: none;
+}
+
+.nav2:hover {
+  background-color: salmon;
+}
+
 
 .active{
   background-color: darkgray;
@@ -118,21 +146,20 @@ button {
   font-weight: bold;
   display: block;
   cursor: pointer;
-  width: 100px;
+  width: 1000px;
   padding: 0.8rem 1rem;
   border-radius: 5px;
 }
 
 
 @media only screen and (min-width: 555px) {
-  body {
-    background-color: palegreen;
+    ul li {
+      color: slategrey;
   }
-}
 
 @media only screen and (min-width: 800px) {
   body {
-    background-color: lightyellow;
+    color: lightyellow;
   }
 }
 
